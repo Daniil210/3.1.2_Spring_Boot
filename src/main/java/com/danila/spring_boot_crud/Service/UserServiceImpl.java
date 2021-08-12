@@ -20,12 +20,14 @@ public class UserServiceImpl implements UserService {
 
     private final UserDao userDao;
 
+    @Transactional
     @Override
     public User saveUser(User user)  {
 
         return userDao.save(user);
     }
 
+    @Transactional
     @Override
     public void deleteUser(Long userId) {
         userDao.deleteById(userId);

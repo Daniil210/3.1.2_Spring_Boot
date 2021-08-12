@@ -455,34 +455,14 @@
 
                         <!--            ++++ new user ++++-->
 
-
                     </div>
                 </div>
 
                 <!--            ++++ nav-tabs ++++-->
-
-
-
-
             </div>
-
         </div>
-
-
-
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!--<div th:each="person : ${people}">-->
@@ -492,14 +472,7 @@
 <br>
 <hr>
 
-<!--<a th:href="@{/people/new}">create new user</a>-->
-<form th:action="@{/admin/new}">
-    <input type="submit" value="CREATE NEW"/>
-</form>
-<!--<br>-->
-<!--<form th:action="@{/logout}">-->
-<!--    <input type="submit" value="LOGOUT"/>-->
-<!--</form>-->
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -525,8 +498,6 @@
     $('input[type=number]').inputSpinner();
 </script>
 
-<!--<script th:src="@{js/main.js}" src="../../static/js/main.js"></script>-->
-<!--<script type="text/javascript" src="/js/main.js"></script>-->
 
 <script>
     $(document).ready(function() {
@@ -540,19 +511,6 @@
 <script>
     $(document).ready(function(){
         $('.table .eBtn').on('click', function(event){
-            // event.preventDefault();
-            // var href = $(this).attr('href');
-            //
-            // $.get(href, function (person, status) {
-            //     $('.myFormEdit #id').val(person.id);
-            //     $('.myFormEdit #name').val(person.name);
-            //     $('.myFormEdit #surname').val(person.surname);
-            //     $('.myFormEdit #age').val(person.age);
-            //     $('.myFormEdit #email').val(person.email);
-            //     $('.myFormEdit #password').val(person.password);
-            //     $('.myFormEdit #roles').val(person.roles);
-            //
-            // });
 
             $('.myFormEdit #editModal').modal();
         });
@@ -562,18 +520,6 @@
 <script>
     $(document).ready(function(){
         $('.table .eBtn').on('click', function(event){
-            // event.preventDefault();
-            // var href = $(this).attr('href');
-            //
-            // $.get(href, function (person, status) {
-            //     $('.myFormDelete #id').val(person.id);
-            //     $('.myFormDelete #name').val(person.name);
-            //     $('.myFormDelete #surname').val(person.surname);
-            //     $('.myFormDelete #age').val(person.age);
-            //     $('.myFormDelete #email').val(person.email);
-            //     $('.myFormDelete #roles').val(person.roles);
-            //
-            // });
 
             $('.myFormDelete #deleteModal').modal();
         });
