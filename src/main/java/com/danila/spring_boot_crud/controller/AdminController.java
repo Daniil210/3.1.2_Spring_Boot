@@ -1,10 +1,9 @@
-package com.danila.spring_boot_crud.Controller;
+package com.danila.spring_boot_crud.controller;
 
 
-import com.danila.spring_boot_crud.Model.User;
-import com.danila.spring_boot_crud.Service.UserService;
+import com.danila.spring_boot_crud.model.User;
+import com.danila.spring_boot_crud.service.UserService;
 import lombok.AllArgsConstructor;
-import lombok.extern.java.Log;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;

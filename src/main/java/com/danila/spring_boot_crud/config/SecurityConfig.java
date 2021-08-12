@@ -1,6 +1,6 @@
-package com.danila.spring_boot_crud.Config;
+package com.danila.spring_boot_crud.config;
 
-import com.danila.spring_boot_crud.Config.Handler.SuccessUserHandler;
+import com.danila.spring_boot_crud.config.Handler.SuccessUserHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;

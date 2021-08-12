@@ -1,5 +1,5 @@
 
-package com.danila.spring_boot_crud.Model;
+package com.danila.spring_boot_crud.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

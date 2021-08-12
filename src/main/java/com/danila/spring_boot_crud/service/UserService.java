@@ -1,8 +1,8 @@
-package com.danila.spring_boot_crud.Service;
+package com.danila.spring_boot_crud.service;
 
 
 
-import com.danila.spring_boot_crud.Model.User;
+import com.danila.spring_boot_crud.model.User;
 
 import java.util.List;
 

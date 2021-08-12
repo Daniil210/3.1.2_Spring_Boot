@@ -1,7 +1,7 @@
-package com.danila.spring_boot_crud.Service;
+package com.danila.spring_boot_crud.service;
 
-import com.danila.spring_boot_crud.Dao.UserDao;
-import com.danila.spring_boot_crud.Model.User;
+import com.danila.spring_boot_crud.dao.UserDao;
+import com.danila.spring_boot_crud.model.User;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -9,9 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
-
-import static java.util.Objects.isNull;
 
 
 @Service

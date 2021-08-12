@@ -1,6 +1,6 @@
-package com.danila.spring_boot_crud.Service;
+package com.danila.spring_boot_crud.service;
 
-import com.danila.spring_boot_crud.Dao.UserDao;
+import com.danila.spring_boot_crud.dao.UserDao;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

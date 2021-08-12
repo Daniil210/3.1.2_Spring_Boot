@@ -1,13 +1,11 @@
 package com.danila.spring_boot_crud;
 
-import com.danila.spring_boot_crud.Dao.UserDao;
-import com.danila.spring_boot_crud.Model.Role;
-import com.danila.spring_boot_crud.Model.User;
-import com.danila.spring_boot_crud.Service.UserService;
+import com.danila.spring_boot_crud.model.Role;
+import com.danila.spring_boot_crud.model.User;
+import com.danila.spring_boot_crud.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 @SpringBootTest
 class ApplicationTests {
